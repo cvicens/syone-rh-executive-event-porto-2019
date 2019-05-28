@@ -29,14 +29,14 @@ spec:
         def CONTEXT_DIR = "./inventory"
 
 
-        def NEXUS = "http://nexus-lab-infra." + APP_BASE
+        def NEXUS = "http://nexus-workshop-infra." + APP_BASE
         def NEXUS_USERNAME = "admin"
         def NEXUS_PASSWORD = "admin123"
         def NEXUS_PATH = "com/redhat/cloudnative/inventory"
 
         // TODO: change needed
         def SONAR_TOKEN = "ASK_YOUR_INSTRUCTOR"
-        def SONAR = "http://sonarqube-lab-infra." + APP_BASE
+        def SONAR = "http://sonarqube-workshop-infra." + APP_BASE
         def BUILD_NAME = APP_NAME
         def BUILD_IMAGE_STREAM = "openshift/redhat-openjdk18-openshift:1.4"
         def mvnCmd = "mvn -s ./settings.xml"
