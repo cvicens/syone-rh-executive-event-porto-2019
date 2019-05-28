@@ -104,7 +104,7 @@ spec:
                 steps {
                     script {
                       dir("${CONTEXT_DIR}") {
-                        sh "${mvnCmd} deploy -DskipTests=true -DaltDeploymentRepository=nexus::default::${NEXUS}/repository/maven-releases/"
+                        sh "${mvnCmd} deploy -DskipTests=true -Popenshift -DaltDeploymentRepository=nexus::default::${NEXUS}/repository/maven-releases/"
                         //APP_VERSION = sh (script: './gradlew -q getVersion --no-daemon', returnStdout: true).trim()
                         //sh "curl -v -u ${NEXUS_USERNAME}:${NEXUS_PASSWORD} --upload-file ./build/libs/${APP_NAME}-${APP_VERSION}.jar ${NEXUS}/repository/maven-snapshots/${NEXUS_PATH}/${APP_VERSION}/${APP_NAME}-${APP_VERSION}.jar"
                       }
