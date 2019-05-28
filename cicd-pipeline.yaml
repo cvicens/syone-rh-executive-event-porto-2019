@@ -25,9 +25,9 @@ spec:
 
         // TODO: change needed
 
-        def PROJECT_NAME = "coolstore-1" 
+        def PROJECT_NAME = "coolstore-XX" 
 
-        def DEV_PROJECT_NAME = "coolstore-1-dev"
+        def DEV_PROJECT_NAME = "coolstore-XX-dev"
 
 
         // TODO: change needed
