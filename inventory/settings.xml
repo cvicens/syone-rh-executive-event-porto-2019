@@ -10,13 +10,13 @@
     </server>
   </servers>
   
-  <mirrors>
+  <!--<mirrors>
     <mirror>
       <id>nexux-mirror</id>
       <name>Nexux Mirror</name>
       <url>http://nexus-workshop-infra.apps.serverless-7bae.openshiftworkshop.com/repository/maven-public/</url>
       <mirrorOf>central</mirrorOf>
     </mirror>
-  </mirrors>
+  </mirrors>-->
   
 </settings>
